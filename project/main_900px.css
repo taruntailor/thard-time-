@@ -1,0 +1,122 @@
+@media (min-width:900px) {
+
+    .contenair {
+        margin: 0 60px;
+    }
+
+    .nav ul {
+        display: flex;
+        /* gap: 10px; */
+    }
+
+    .button button {
+        display: none;
+    }
+
+    .nav a {
+        font-size: 15px;
+    }
+
+    /* ================s-1================ */
+    .s-1 .text {
+        width: 60%;
+        text-align: right;
+    }
+
+    .s-1 .text h4 {
+
+        font-size: 2.5em;
+        padding-top: 100px;
+
+    }
+      /* ==============s-2==================== */
+      .s-2 .row {
+        display: contents;
+        gap: 45px;
+    
+    }
+    .s-2 .text {
+        margin-left: 2vh;
+    }
+    .s-2 .text .p1 {
+        margin-top: 1rem;
+        width: 100%;
+    }
+      /* ==============s-5==================== */
+
+      .s-5 .row {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .s-5 .col {
+        margin-bottom: 0.5em;
+    }
+
+    .s-5 .col {
+
+        height: 150px;
+        width: 280px;
+
+    }
+
+    .s-5 .row img {
+        height: 150px;
+        width: 280px;
+
+    }
+       /* ========s-6============== */
+       .s-6  .row{
+        display: flex;
+    }
+    .s-6 .p1 {
+        background: aliceblue;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+      /* ========================s-7================ */
+   
+    .icon {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 20px;
+        /* text-align: center; */
+    }
+    /* =============s-8================== */
+    .s-8 .head .row {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 25px;
+    }
+    .s-8 .head .row .col{
+        width: auto;
+    }
+    .s-8 .head .row .col span {
+
+        color: #fff;
+        font-size: 4em;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    /* =================s-9======================= */
+    .reg .row {
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+        gap: 50px;
+        justify-content: space-around;
+    }
+    .reg textarea.in {
+        padding: 19px 20px;
+        border: 1px solid #acacac;
+        border-radius: 20px;
+        width: 100%;
+        height: 200px;
+    }
+}
